@@ -3,45 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Site com Banner e Cards</title>
+    <title>O Senhor dos Anéis</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./img/pngwing.com.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Cabeçalho do site -->
     <header>
-        <h1>Bem-vindos ao Meu Primeiro Site</h1>
+        <img src="./img/The_Lord_of_the_Rings_logo.png" alt="">
+        <h1>Curiosidades sobre O Senhor dos Anéis</h1>
+        <nav>
+            <a href="" id="char-button">Personagens</a>
+            <a href="" id="map-button">Mapa da Terra Média</a>
+        </nav>
     </header>
 
      <!-- Seção do Banner -->
     <section class="banner">
-        <img src="https://picsum.photos/id/1015/800/300" alt="">
+        <img src="./img/WaZmD6.jpg" alt="">
     </section>
+
+    <iframe id="map" src="https://middleearthmap.app/" hidden></iframe>
 
     <!-- Seção dos Cards -->
     <section class="cards">
 
         <!-- Card 1 -->
         <div class="card">
-            <img src="https://picsum.photos/id/1005/300/200" alt="">
-            <h2>Card 1</h2>
-            <p>Este é o primeiro card. Ele contém um texto exemplo.</p>
-            <a href="#">Saiba mais</a>
+            <img src="https://i.etsystatic.com/33693758/r/il/9b78b2/4174059856/il_fullxfull.4174059856_mslj.jpg" alt="">
+            <h2>Gandalf</h2>
+            <p>O mais sábio e mais poderoso dos heróis</p>
+            <a href="https://lotr.fandom.com/wiki/Gandalf" target="_blank">Saiba mais</a>
         </div>
 
         <!-- Card 2 -->
         <div class="card">
-            <img src="https://picsum.photos/id/1011/300/200" alt="">
-            <h2>Card 2</h2>
-            <p>Este é o segundo card. Você pode colocar qualquer conteúdo.</p>
-            <a href="#">Saiba mais</a>
+            <img src="https://www.theonering.net/torwp/wp-content/uploads/2013/05/samwise-gamgee.jpg" alt="">
+            <h2>Sam</h2>
+            <p>O verdadeiro protagonista, carregou o Frodo na mochila.</p>
+            <a href="https://lotr.fandom.com/wiki/Samwise_Gamgee" target="_blank">Saiba mais</a>
         </div>
 
         <!-- Card 3 -->
          <div class="card">
-            <img src="https://picsum.photos/id/1016/300/200" alt="">
-            <h2>Card 3</h2>
-            <p>Este é o terceiro card. Experimente personalizar cores e fontes.</p>
-            <a href="#">Saiba mais</a>
+            <img src="https://live.staticflickr.com/2880/11588463316_9aaf753f4c_z.jpg" alt="">
+            <h2>Legolas</h2>
+            <p>O elfo mais estiloso. Reizinho do fan service</p>
+            <a href="https://lotr.fandom.com/wiki/Legolas" target="_blank">Saiba mais</a>
         </div>
     </section>
 
@@ -49,5 +60,6 @@
     <footer>
         <p>Feito pelos alunos de HTML + CSS</p>
     </footer>
+    <script src="./js/script.js"></script>
 </body>
 </html>

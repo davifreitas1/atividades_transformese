@@ -5,16 +5,51 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background: #f4f4f4;
-    color: #333;
+    font-family: Cinzel, sans-serif;
+    background: #1f1f1f;
+    color: #d4cbb5;
 }
 
 header {
-    background: #333;
-    color: white;
+    background: #2c2c2c;
+    color: #d4cbb5;
     text-align: center;
-    padding: 20px 0;
+    padding: 20px 20px;
+    display: flex;
+}
+
+header img {
+    height: 40px;
+    width: auto;
+    margin-left: 20px;
+}
+
+header h1 {
+    margin: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    align-self: center;
+    color: #c9b27c;
+}
+
+iframe {
+    width: 800px;
+    height: 450px;
+    margin: 30px auto;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    margin: -484.636px 291.273px;
 }
 
 .banner {
@@ -40,7 +75,7 @@ header {
 }
 
 .card {
-    background: white;
+    background: #3e3e3e;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -63,7 +98,8 @@ header {
 
 .card h2 {
     margin-bottom: 15px;
-    color: #333366;
+    color: #c9b27c;
+;
 }
 
 .card p {
@@ -73,8 +109,9 @@ header {
 .card a {
     display: inline-block;
     text-decoration: none;
-    background: #333366;
-    color: white;
+    margin-top: auto;
+    background: #5c4a2d;
+    color: #f5f5f5;
     padding: 10px 20px;
     border-radius: 5px;
     transition: 0.3s
@@ -82,8 +119,8 @@ header {
 
 footer {
     text-align: center;
-    background: #333366;
-    color: white;
+    background: #2c2c2c;
+    color: #d4cbb5;
     padding: 15px 0;
     margin-top: 30px;
 }
